@@ -31,9 +31,9 @@ const checkWin = () => {
             else { document.getElementsByClassName('info')[0].innerText = "Winner is " + b; }
             if(turn!='0')
             {
-                boxtext[e[0]].innerHTML = "⭕";
-                boxtext[e[1]].innerText = "⭕";
-                boxtext[e[2]].innerText = "⭕";
+                boxtext[e[0]].innerHTML = "🔥";
+                boxtext[e[1]].innerText = "🔥";
+                boxtext[e[2]].innerText = "🔥";
             }
             else{
                 boxtext[e[0]].innerHTML = "❌";
